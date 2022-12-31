@@ -19,7 +19,7 @@
         },
         "OS": {
             "type": "string",
-            "defaultValue": "Ubuntu",
+            "defaultValue": "Windows",
             "allowedValues": [
                 "Ubuntu",
                 "Windows"
@@ -37,7 +37,7 @@
         },
         "authenticationType": {
             "type": "string",
-            "defaultValue": "sshPublicKey",
+            "defaultValue": "password",
             "allowedValues": [
                 "sshPublicKey",
                 "password"
@@ -54,7 +54,7 @@
         },
         "vmSize": {
             "type": "string",
-            "defaultValue": "Standard_A1_v2",
+            "defaultValue": "Standard_B2s",
             "metadata": {
                 "description": "description"
             }
